@@ -1,0 +1,87 @@
+@import url(https://fonts.google.com/specimen/Roboto?preview.layout=grid&query=roboto);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: roboto monospace;
+}
+
+.main{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.main .image-container{
+    padding: 10px;
+
+}
+
+.main .image-container .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .image-container .image img{
+    width: 170px;
+    align-items: center;
+    
+}
+
+.main .image-container h1{
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.main .image-container p{
+    color: #324042;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.main .input{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40vw;
+height: 50px;
+border-radius: 20px;
+background: rgb(202 253 255 /50%);
+}
+
+.main .input .talk{
+    outline: none;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+
+.main .input .talk i{
+    font-size: 20px;
+    color: #aed0d0;
+}
+
+.main .input .content{
+    color: #aed0d0;
+    font-size: 15px;
+    margin-right: 20px;
+}
